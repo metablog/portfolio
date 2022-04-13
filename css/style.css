@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700&display=swap');
 
+:root{
+    --ti-cursor-margin-left: 0.1em;
+}
+
 
 /* 변수 css */
 :root{
@@ -197,7 +201,9 @@ img{
     margin-bottom: var(--mb-5);
 }
 .home__title-color{
+    
     color: var(--first-color);
+    
 }
 .home__social{
     display: flex;
