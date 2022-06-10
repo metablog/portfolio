@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', () =>{
     new TypeIt('.home__title-color')
     .pause(2000)
     .delete(6, {delay: 2000})
-    .type('sinior')
-    .go();  
+    .type('Senior')
+    .go();
+    
 })
 
 
